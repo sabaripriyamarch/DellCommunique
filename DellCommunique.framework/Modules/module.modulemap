@@ -1,0 +1,11 @@
+framework module DellCommunique {
+  umbrella header "DellCommunique.h"
+
+  export *
+  module * { export * }
+}
+
+module DellCommunique.Swift {
+    header "DellCommunique-Swift.h"
+    requires objc
+}
